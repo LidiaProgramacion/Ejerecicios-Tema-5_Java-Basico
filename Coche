@@ -1,0 +1,32 @@
+package EjerciciosTema5;
+
+public class Coche {
+    //Atributos
+    String marca;
+    int numPuertas;
+    double KmRecorridos;
+    boolean electrico;
+
+    //Constructores
+    public Coche () {
+
+    }
+    public Coche(String marca, int numPuertas, double kmRecorridos, boolean electrico) {
+        this.marca = marca;
+        this.numPuertas = numPuertas;
+        this.KmRecorridos = kmRecorridos;
+        this.electrico = electrico;
+    }
+
+    //Métodos
+
+    @Override
+    public String toString() {
+        return "Coche{" +
+                "marca='" + marca + '\'' +
+                ", numPuertas=" + numPuertas +
+                ", KmRecorridos=" + KmRecorridos +
+                ", electrico=" + electrico +
+                '}';
+    }
+}
