@@ -1,0 +1,12 @@
+package EjerciciosTema5;
+
+public class Main {
+    static CocheCRUDImpl C1 = new CocheCRUDImpl();
+    public static void main(String[] args) {
+        C1.findAll();
+        C1.save(new Coche());
+        C1.delete(new Coche());
+    }
+
+
+}
