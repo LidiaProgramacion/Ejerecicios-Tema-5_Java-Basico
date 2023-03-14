@@ -1,0 +1,12 @@
+package EjerciciosTema5;
+
+import java.util.List;
+
+//Se declaran los métodos, no se implementan
+public interface CocheCRUD {
+    void save (Coche coche);
+
+    List<Coche> findAll();
+
+    void delete(Coche coche);
+}
